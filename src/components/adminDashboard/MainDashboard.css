@@ -1,0 +1,46 @@
+/* MainDashboard.css */
+
+/* General container styling */
+.container {
+    padding-top: 20px;
+  }
+  
+  /* Card styling */
+  .dashboard-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .dashboard-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Card image styling */
+  .dashboard-card-img {
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #007bff;
+  }
+  
+  /* Button styling */
+  .button {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    margin-bottom: 20px;
+  }
+  
+  /* Logout button styling */
+  .navbar .btn {
+    margin-left: auto;
+  }
+  
